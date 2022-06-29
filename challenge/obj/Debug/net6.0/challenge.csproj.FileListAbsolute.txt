@@ -1,0 +1,5 @@
+/home/ignacio/projects/algorithms/challenge/obj/Debug/net6.0/challenge.csproj.AssemblyReference.cache
+/home/ignacio/projects/algorithms/challenge/obj/Debug/net6.0/challenge.GeneratedMSBuildEditorConfig.editorconfig
+/home/ignacio/projects/algorithms/challenge/obj/Debug/net6.0/challenge.AssemblyInfoInputs.cache
+/home/ignacio/projects/algorithms/challenge/obj/Debug/net6.0/challenge.AssemblyInfo.cs
+/home/ignacio/projects/algorithms/challenge/obj/Debug/net6.0/challenge.csproj.CoreCompileInputs.cache
