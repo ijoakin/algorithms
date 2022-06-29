@@ -1,0 +1,6 @@
+challenge/bin/
+challenge/obj/
+DataStructure/bin/Debug/net6.0/DataStructure.deps.json
+DataStructure/bin/
+DataStructure/obj/
+.vs/

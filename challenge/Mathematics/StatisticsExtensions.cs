@@ -1,14 +1,16 @@
+using System.Collections.Generic;
+
 public static class StatisticsExtensions
 {
-  public static double TruncatedMean<T>(this IEnumarable<T> values, int discardNumber)
+  public static double TruncatedMean<T>(this IEnumerable<T> values, int discardNumber)
   {
     IEnumerable<double> doubles = values.Select(value => Convert.ToDouble(value));
-    double[] arrDoubles = doubles.ToArray();
+    double[] doubleArray = doubles.ToArray();
 
-    Array.Sort(arrDoubles);
+    Array.Sort(doubleArray);
 
     int minIndex = discardNumber;
-    int maxIndex = arrDoubles.Length - 1 - discardNumber;
+    int maxIndex = doubleArray.Length - 1 - discardNumber;
 
     // Copy the desired items into a new array.
     int numRemaining = maxIndex - minIndex + 1;
